@@ -3,10 +3,10 @@ import time
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 
-USERNAME = "username"
-PASSWORD = "密码"
+USERNAME = "15201784147"
+PASSWORD = "baojiacheng1998"
 
-chromedriver = "/Users/mac/Desktop/skd/形势与政策/chromedriver"
+chromedriver = "/Users/bjc/Desktop/skd/形势与政策/chromedriver"
 web = Chrome(chromedriver)
 
 web.get('http://passport2.chaoxing.com/login?loginType=4&newversion=true&fid=10572&refer=http://i.mooc.chaoxing.com')
