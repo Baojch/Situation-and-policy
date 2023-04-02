@@ -4,8 +4,8 @@ from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
  
-USERNAME = "15201784147"
-PASSWORD = "baojiacheng1998"
+USERNAME = ""
+PASSWORD = ""
 # start from which chapter and lecture
 chapter = 4
 lec = 6
