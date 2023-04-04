@@ -1,17 +1,18 @@
 import time
 
-from selenium.webdriver import Chrome
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
  
 USERNAME = ""
 PASSWORD = ""
 # start from which chapter and lecture
-chapter = 4
-lec = 6
+chapter = 1
+lec = 1
 
 chromedriver = "/Users/bjc/Desktop/skd/形势与政策/chromedriver"
-web = Chrome(chromedriver)
+web = webdriver.Chrome(chromedriver)
+# web = webdriver.Edge(chromedriver)
 web.set_window_size(1600, 1300) 
 web.get('http://passport2.chaoxing.com/login?loginType=4&newversion=true&fid=10572&refer=http://i.mooc.chaoxing.com')
 
