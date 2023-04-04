@@ -7,3 +7,6 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 若为edge则将web = webdriver.Edge(chromedriver)取消注释，
 并将web = webdriver.Chrome(chromedriver)注释
 ### 4.直接在安装了selenium库的python环境下运行代码
+\ 
+PS:记得先置课
+
