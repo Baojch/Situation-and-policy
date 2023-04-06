@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
  
-USERNAME = ""
-PASSWORD = ""
+USERNAME = "15201784147"
+PASSWORD = "baojiacheng1998"
 # start from which chapter and lecture
 chapter = 1
 lec = 1
@@ -104,6 +104,7 @@ while (1):  # 播放等待
             print('视频播放完毕')
             web.refresh()
             time.sleep(5)
+            web.execute_script(js)
             web.find_element(By.XPATH, '//div[@class="jb_btn jb_btn_92 fs14 prev_next next fr"]').click()
             print("进入章节测验")
             time.sleep(5)
