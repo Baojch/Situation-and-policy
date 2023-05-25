@@ -49,8 +49,11 @@ login.click()
 time.sleep(6)
 
 #进入课程
+web.find_element(By.ID,'li_zne_kc_icon').click()
 iframe = web.find_element(By.ID,'frame_content')
 web.switch_to.frame(iframe)
+time.sleep(1)
+
 lesson = web.find_element(By.XPATH,"//div[@class='course-cover']//img")
 lesson.click()
 time.sleep(3)
